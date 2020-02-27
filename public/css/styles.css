@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: hidden;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: black;
+}
+
+p {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+
+.image {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    justify-content: end;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+img {
+    width: 250px;
+    grid-area: span 9 / 12;
+    padding: 0 50px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav a {
+    padding: 0 15px;
+    text-decoration: none;
+    font-family: sans-serif
+}
+
+.nav a p {
+    transition: .48s;
+    border-radius: 23% 10% 17% 18% / 57% 0% 34% 36%;
+}
+
+.nav a p:hover {
+    background: rgb(20, 160, 50);
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.thedataDiv {
+    height: 200px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    flex-direction: column;
+}
