@@ -4,6 +4,8 @@ let h2 = document.createElement('h2')
 let par = document.createElement('p')
 let steiner = document.getElementById('stein')
 let para = document.querySelectorAll('p')
+let btn = document.querySelector('button')
+let bottomTxt = document.getElementById('bottomText')
 h2.setAttribute('id', 'weather-heading')
 par.setAttribute('id', 'weather-info')
 
@@ -62,7 +64,9 @@ theForm.addEventListener('submit', function(e) {
             par.style.color = 'white'
             h2.style.color = 'white'
             h1.style.color = 'white'
+            bottomTxt.style.color = 'white'
             stein.innerText = ''
+
 
             const array = Array.prototype.slice.call(para)
             for (p of array) {

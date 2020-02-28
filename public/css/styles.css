@@ -80,3 +80,30 @@ img {
     margin: 10px auto;
     flex-direction: column;
 }
+
+#weather-heading {
+    font-size: 150%;
+}
+
+#weather-info {
+    font-size: 150%;
+}
+
+button {
+    font-family: sans-serif;
+    border-radius: 23% 10% 17% 18% / 57% 0% 34% 36%;
+    border: none;
+    background: rgba(20, 160, 50, 0.4);
+    padding: 10px 10px;
+    margin: 0 5px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
