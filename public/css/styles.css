@@ -107,3 +107,7 @@ a {
     color: black;
     font-weight: 600;
 }
+
+input {
+    margin-bottom: 35px;
+}
